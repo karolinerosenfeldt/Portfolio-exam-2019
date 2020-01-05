@@ -121,6 +121,7 @@ header a.logo {
     margin-top: 125px;
     text-align: justify;
     line-height: 2;
+    font-size: 18px;
 }
 
 #txt1 a {
@@ -149,6 +150,7 @@ h1 {
     margin-right: 125px;
     color: #ff709d;
     line-height: 2;
+    font-size: 18px;
 }
 
 #txt2 a {
@@ -172,6 +174,15 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify;
+    font-size: 18px;
+}
+
+#txt3 a{
+    color: #ff709d;
+}
+
+#txt3 a:hover{
+    color: white;
 }
 
 #txt4 {
@@ -181,7 +192,17 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify;
+    font-size: 18px;
 }
+
+#txt4 a{
+    color: #ff709d;
+}
+
+#txt4 a:hover{
+    color: white;
+}
+
 
 #txt5 {
     color: #ff709d;
@@ -190,6 +211,7 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify;
+    font-size: 18px;
 }
 
 #txt5 a {
@@ -212,6 +234,7 @@ h1 {
     margin-right: 125px;
    line-height: 2;
     text-align: justify;
+    font-size: 18px;
 }
 
 #txt6 a{
@@ -233,6 +256,7 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify; 
+    font-size: 18px;
 }
 
 #txt7 a{
@@ -257,6 +281,7 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify;
+    font-size: 18px;
 }
 
 #txt8 a{
@@ -274,6 +299,7 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify;
+    font-size: 18px;
 }
 
 #txt9 a{
@@ -291,6 +317,7 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify;
+    font-size: 18px;
 }
 
 #txt10 a{
@@ -308,6 +335,7 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify;
+    font-size: 18px;
 }
 
 #txt11 a{
@@ -325,6 +353,7 @@ h1 {
     margin-right: 125px;
     line-height: 2;
     text-align: justify;
+    font-size: 18px;
 }
 
 #txt12 a{
