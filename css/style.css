@@ -292,6 +292,12 @@ h1 {
     color: white;
 }
 
+.bouncyball_img{
+    width: 100vh;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
 #txt9{
     color: #ff709d;
     margin-top: 70px;
