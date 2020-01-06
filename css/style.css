@@ -60,6 +60,9 @@ header a.logo {
     .header-right {
         float: none;
     }
+    .mobile_website_img{
+
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -137,9 +140,10 @@ h1 {
 }
 
 .mobile_website_img {
-    grid-area: cnt1;
     width: 100vh;
+    height: 30vw;
     margin-left: 125px;
+    margin-right: 125px;
     margin-top: 50px;
 }
 
@@ -163,6 +167,8 @@ h1 {
 
 .responsive_website_img {
     width: 100vh;
+    height: 30vw;
+    margin-right: 125px;
     margin-left: 125px;
     margin-top: 50px;
 }
@@ -224,7 +230,9 @@ h1 {
 
 .joinhub_img{
     width: 100vh;
+    height: 30vw;
     margin-top: 50px;
+    margin-right: 125px;
 }
 
 #txt6{
@@ -247,6 +255,7 @@ h1 {
 
 .spriteani_img{
     width: 100vh;
+    height: 30vw;
 }
 
 #txt7{
@@ -269,6 +278,7 @@ h1 {
 
 .java_ani_img{
     width: 100vh;
+    height: 30vw;
     margin-top: 50px;
     margin-left: 125px;
 }
@@ -294,6 +304,7 @@ h1 {
 
 .bouncyball_img{
     width: 100vh;
+    height: 30vw;
     margin-top: 50px;
     margin-left: 125px;
 }
