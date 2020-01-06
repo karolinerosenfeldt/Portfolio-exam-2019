@@ -54,37 +54,13 @@ header a.logo {
         float: none;
         display: block;
         text-align: left;
-
     }
-
     .header-right {
         float: none;
     }
     .mobile_website_img{
-
     }
 }
-
-@media screen and (max-width: 900px) {
-
-    #text {
-        color: #ff709d;
-        text-align: justify;
-        line-height: 2;
-        margin: 50px;
-    }
-
-    .pic_me {
-        width: 50vh;
-        margin: 50px;
-    }
-
-    footer {
-        color: #ff609d;
-        text-align: center;
-    }
-}
-
 
 @media screen and (min-width: 900px) {
     .two_columns {
@@ -361,6 +337,12 @@ h1 {
 
 #txt11 a:hover{
     color: white;
+}
+
+.storyboard_img{
+    width: 100vh;
+    height: 50vh;
+    margin-top: 50px;
 }
 
 #txt12{
