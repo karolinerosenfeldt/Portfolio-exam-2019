@@ -58,8 +58,6 @@ header a.logo {
     .header-right {
         float: none;
     }
-    .mobile_website_img{
-    }
 }
 
 @media screen and (min-width: 900px) {
@@ -116,8 +114,8 @@ h1 {
 }
 
 .mobile_website_img {
-    width: 100vh;
-    height: 30vw;
+    width: 70%;
+    height: auto;
     margin-left: 125px;
     margin-right: 125px;
     margin-top: 50px;
@@ -142,8 +140,8 @@ h1 {
 }
 
 .responsive_website_img {
-    width: 100vh;
-    height: 30vw;
+    width: 70%;
+    height: auto;
     margin-right: 125px;
     margin-left: 125px;
     margin-top: 50px;
@@ -205,8 +203,8 @@ h1 {
 }
 
 .joinhub_img{
-    width: 100vh;
-    height: 30vw;
+    width: 80%;
+    height: auto;
     margin-top: 50px;
     margin-right: 125px;
 }
@@ -230,8 +228,8 @@ h1 {
 }
 
 .spriteani_img{
-    width: 100vh;
-    height: 30vw;
+    width: 70%;
+    height: auto;
 }
 
 #txt7{
@@ -253,8 +251,8 @@ h1 {
 }
 
 .java_ani_img{
-    width: 100vh;
-    height: 30vw;
+    width: 70%;
+    height: auto;
     margin-top: 50px;
     margin-left: 125px;
 }
@@ -279,8 +277,8 @@ h1 {
 }
 
 .bouncyball_img{
-    width: 100vh;
-    height: 30vw;
+    width: 70%;
+    height: auto;
     margin-top: 50px;
     margin-left: 125px;
 }
@@ -340,8 +338,8 @@ h1 {
 }
 
 .storyboard_img{
-    width: 100vh;
-    height: 50vh;
+    width: 80%;
+    height: auto;
     margin-top: 50px;
 }
 
