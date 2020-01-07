@@ -48,14 +48,6 @@ header a.logo {
 .header-right {
     float: right;
 }
-svg{
-    width: 100vw;
-    height: 100vh;
-}
-
-#logo{
-    position: absolute;
-}
 /*Media query for small screen*/
 
 @media screen and (max-width: 500px){
@@ -66,6 +58,23 @@ svg{
     }
     .header-right {
         float: none;
+    }
+    .intro{
+        color: #ff709d;
+        margin-left: 100px;
+        margin-right: 80px;
+        margin-top: 50px;
+        text-align: justify;
+
+    }
+    .intro h1{
+        font-family: Anton, sans-serif;
+        text-decoration: underline;
+        font-size: 50px;
+    }
+    .intro p{
+        font-family: Roboto Condensed;
+        line-height: 2;
     }
     #text h1{
         font-family: Anton, sans-serif;
@@ -82,6 +91,14 @@ svg{
         margin-top: 70px;
         text-align: justify;
     }
+    #text h3{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+        margin-left: 80px;
+        margin-right: 80px;
+        line-height: 2;
+        text-align: justify;
+    }
     .pic_me{
         width: 80%;
         height: auto;
@@ -239,7 +256,7 @@ svg{
     }
     #txt6 h3{
         font-family: Anton, sans-serif;
-        margin-top: 50px,;
+        margin-top: 50px;
     }
     #txt6 p{
         font-family: Roboto Condensed;
@@ -411,11 +428,33 @@ svg{
     #txt12 a:hover{
         color: white;
     }
+    footer{
+        color: #ff709d;
+        font-family: Anton, sans-serif;
+        text-align: center;
+    }
 }
 
 /*Media Query medium screen*/
 
     @media screen and (max-width: 900px){
+        .intro{
+        color: #ff709d;
+        margin-left: 100px;
+        margin-right: 80px;
+        margin-top: 100px;
+        text-align: justify;
+
+    }
+    .intro h1{
+        font-family: Anton, sans-serif;
+        text-decoration: underline;
+        font-size: 50px;
+        }
+    .intro p{
+        font-family: Roboto Condensed;
+        line-height: 2;
+    }
         #text h1{
         font-family: Anton, sans-serif;
         color: #ff709d;
@@ -423,6 +462,13 @@ svg{
         margin-top: 70px;
         text-decoration: underline;
     }
+        .figures{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:
+                "f1 f2 f3";
+        }
+
     #text p{
         font-family: Roboto Condensed, sans-serif;
         color: #ff709d;
@@ -431,6 +477,15 @@ svg{
         margin-right: 80px;
         text-align: justify;
     }
+    #text h3{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+        margin-left: 80px;
+        margin-right: 80px;
+        line-height: 2;
+        text-align: justify;
+        }
+
     .pic_me{
         width: 80%;
         height: auto;
@@ -588,7 +643,7 @@ svg{
     }
     #txt6 h3{
         font-family: Anton, sans-serif;
-        margin-top: 50px,;
+        margin-top: 50px;
     }
     #txt6 p{
         font-family: Roboto Condensed;
@@ -759,6 +814,11 @@ svg{
     }
     #txt12 a:hover{
         color: white;
+    }
+         footer{
+        color: #ff709d;
+        font-family: Anton, sans-serif;
+        text-align: center;
     }
         }
 /*Media query for big screens*/
@@ -770,6 +830,23 @@ svg{
         grid-gap: 10px;
         grid-template-areas:
             ". txt pic .";
+    }
+    .intro{
+        color: #ff709d;
+        margin-left: 100px;
+        margin-right: 80px;
+        margin-top: 100px;
+        text-align: justify;
+
+    }
+    .intro h1{
+        font-family: Anton, sans-serif;
+        text-decoration: underline;
+        font-size: 50px;
+    }
+    .intro p{
+        font-family: Roboto Condensed;
+        line-height: 2;
     }
 
     #text {
@@ -785,6 +862,12 @@ svg{
     }
     #text p{
         font-family: Roboto Condensed, sans-serif;
+    }
+    #text h3{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+        line-height: 2;
+        text-align: justify;
     }
     .pic_me {
         grid-area: pic;
@@ -950,10 +1033,11 @@ svg{
     #txt6 h1{
         font-family: Anton, sans-serif;
         margin-top: 70px;
+        text-decoration: underline;
     }
     #txt6 h3{
         font-family: Anton, sans-serif;
-        margin-top: 50px,;
+        margin-top: 50px;
     }
     #txt6 p{
         font-family: Roboto Condensed;
@@ -1061,6 +1145,7 @@ svg{
     #txt10 h1{
         font-family: Anton, sans-serif;
         margin-top: 70px;
+        text-decoration: underline;
     }
     #txt10 h3{
         font-family: Anton, sans-serif;
