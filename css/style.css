@@ -757,11 +757,40 @@ header a.logo {
 /*Media query for big screens*/
 
 @media screen and (min-width:900px){
-     }
+    .two_columns {
+        display: grid;
+        grid-template-columns: 1fr 10fr 10fr 1fr;
+        grid-gap: 10px;
+        grid-template-areas:
+            ". txt pic .";
+    }
+
+    #text {
+        grid-area: txt;
+        color: #ff709d;
+        margin: 70px;
+        text-align: justify;
+        line-height: 2;
+    }
+    #text h1{
+        font-family: Anton, sans-serif;
+        text-decoration: underline;
+    }
+    #text p{
+        font-family: Roboto Condensed, sans-serif;
+    }
+    .pic_me {
+        grid-area: pic;
+        width: 60vh;
+        margin: 70px;
+    }
     #txt1{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
         margin-top: 100px;
+        text-align: justify;
+
     }
 
     #txt1 h1{
@@ -789,15 +818,16 @@ header a.logo {
         color: white;
     }
     .mobile_website_img{
-        width: 80%;
+        width: 40%;
         height: auto;
-        margin-left: 80px;
+        margin-left: 200px;
         margin-top: 50px;
     }
     #txt2{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
         margin-top: 70px;
+        margin-right: 200px;
     }
     #txt2 h3{
         font-family: Anton, sans-serif;
@@ -816,14 +846,15 @@ header a.logo {
         color: white;
     }
     .responsive_website_img{
-        width: 80%;
+        width: 40%;
         height: auto;
-        margin-left: 80px;
+        margin-left: 200px;
         margin-top: 50px;
     }
     #txt3{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
     #txt3 h1{
         font-family: Anton, sans-serif;
@@ -848,7 +879,9 @@ header a.logo {
     }
     #txt4{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 90px;
     }
     #txt4 h3{
         font-family: Anton, sans-serif;
@@ -867,18 +900,19 @@ header a.logo {
         color: white;
     }
     .low-fi_img{
-        width: 80%;
+        width: 40%;
         height: auto;
-        margin-left: 80px;
+        margin-left: 200px;
     }
     .hi-fi_img{
-        width: 80%;
+        width: 40%;
         height: auto;
-        margin-left: 80px;
+        margin-left: 200px;
     }
     #txt5{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
     #txt5 h3{
         font-family: Anton, sans-serif;
@@ -898,12 +932,13 @@ header a.logo {
         color: white;
     }
     .joinhub_img{
-        width: 90%;
+        width: 50%;
         height: auto;
     }
      #txt6{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
     #txt6 h1{
         font-family: Anton, sans-serif;
@@ -927,12 +962,13 @@ header a.logo {
         color: white;
     }
     .spriteani_img{
-        width: 90%;
+        width: 40%;
         height: auto;
     }
      #txt7{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+         margin-right: 200px;
     }
     #txt7 h3{
         font-family: Anton, sans-serif;
@@ -952,14 +988,15 @@ header a.logo {
         color: white;
     }
     .java_ani_img{
-        width: 80%;
+        width: 40%;
         height: auto;
-        margin-left: 80px;
+        margin-left: 200px;
         margin-top: 50px;
     }
      #txt8{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+         margin-right: 200px;
     }
     #txt8 h3{
         font-family: Anton, sans-serif;
@@ -979,13 +1016,14 @@ header a.logo {
         color: white;
     }
     .bouncyball_img{
-        width: 80%;
-        margin-left: 80px;
+        width: 40%;
+        margin-left: 200px;
         margin-top: 50px;
     }
      #txt9{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+         margin-right: 200px;
     }
     #txt9 h3{
         font-family: Anton, sans-serif;
@@ -1005,12 +1043,13 @@ header a.logo {
         color: white;
     }
     .onboarding_img{
-        width: 80%;
+        width: 40%;
         height: auto;
     }
      #txt10{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
     #txt10 h1{
         font-family: Anton, sans-serif;
@@ -1034,12 +1073,13 @@ header a.logo {
         color: white;
     }
     .bioti_img{
-        width: 90%;
+        width: 50%;
         height: auto;
     }
      #txt11{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
+         margin-right: 200px;
     }
     #txt11 h3{
         font-family: Anton, sans-serif;
@@ -1059,12 +1099,12 @@ header a.logo {
         color: white;
     }
     .storyboard_img{
-        width: 80%;
+        width: 50%;
         height: auto;
     }
      #txt12{
         color: #ff709d;
-        margin-left: 80px;
+        margin-left: 200px;
     }
     #txt12 h3{
         font-family: Anton, sans-serif;
@@ -1083,6 +1123,12 @@ header a.logo {
     #txt12 a:hover{
         color: white;
     }
+
+footer{
+    color: #ff709d;
+    font-family: Anton, sans-serif;
+    text-align: center;
+}
 }
 
 
