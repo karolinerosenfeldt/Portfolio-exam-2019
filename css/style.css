@@ -754,12 +754,14 @@ header a.logo {
         color: white;
     }
         }
+/*Media query for big screens*/
 
 @media screen and (min-width:900px){
      }
     #txt1{
         color: #ff709d;
         margin-left: 80px;
+        margin-top: 100px;
     }
 
     #txt1 h1{
@@ -774,7 +776,7 @@ header a.logo {
     #txt1 p{
         font-family: Roboto Condensed, sans-serif;
         line-height: 2;
-        margin-right: 80px;
+        margin-right: 200px;
         text-align: justify;
     }
 
@@ -803,7 +805,7 @@ header a.logo {
     #txt2 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt2 a{
@@ -834,7 +836,7 @@ header a.logo {
     #txt3 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt3 a{
@@ -854,7 +856,7 @@ header a.logo {
     #txt4 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt4 a{
@@ -885,7 +887,7 @@ header a.logo {
     #txt5 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt5 a{
@@ -914,7 +916,7 @@ header a.logo {
     #txt6 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt6 a{
@@ -939,7 +941,7 @@ header a.logo {
     #txt7 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt7 a{
@@ -966,7 +968,7 @@ header a.logo {
     #txt8 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt8 a{
@@ -992,7 +994,7 @@ header a.logo {
     #txt9 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt9 a{
@@ -1021,7 +1023,7 @@ header a.logo {
     #txt10 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt10 a{
@@ -1046,7 +1048,7 @@ header a.logo {
     #txt11 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt11 a{
@@ -1071,7 +1073,7 @@ header a.logo {
     #txt12 p{
         font-family: Roboto Condensed;
         text-align: justify;
-        margin-right: 80px;
+        margin-right: 200px;
         line-height: 2;
     }
     #txt12 a{
