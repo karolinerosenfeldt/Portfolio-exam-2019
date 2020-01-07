@@ -183,6 +183,20 @@ h1 {
     color: white;
 }
 
+.low-fi_img{
+    width: 45%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
+.hi-fi_img{
+    width: 45%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
 
 #txt5 {
     color: #ff709d;
@@ -203,10 +217,9 @@ h1 {
 }
 
 .joinhub_img{
-    width: 80%;
+    width: 70%;
     height: auto;
     margin-top: 50px;
-    margin-right: 125px;
 }
 
 #txt6{
@@ -224,7 +237,7 @@ h1 {
 }
 
 #txt6 a:hover{
-    color: black;
+    color: white;
 }
 
 .spriteani_img{
