@@ -406,6 +406,8 @@ header a.logo {
     }
 }
 
+/*Media Query medium screen*/
+
     @media screen and (max-width: 900px){
         #text h1{
         font-family: Anton, sans-serif;
@@ -752,6 +754,334 @@ header a.logo {
         color: white;
     }
         }
+
+@media screen and (min-width:900px){
+     }
+    #txt1{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+
+    #txt1 h1{
+        font-family: Anton, sans-serif;
+        text-decoration: underline;
+    }
+    #txt1 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+
+    #txt1 p{
+        font-family: Roboto Condensed, sans-serif;
+        line-height: 2;
+        margin-right: 80px;
+        text-align: justify;
+    }
+
+    #txt1 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+
+    #txt1 a:hover{
+        color: white;
+    }
+    .mobile_website_img{
+        width: 80%;
+        height: auto;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    #txt2{
+        color: #ff709d;
+        margin-left: 80px;
+        margin-top: 70px;
+    }
+    #txt2 h3{
+        font-family: Anton, sans-serif;
+    }
+    #txt2 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt2 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt2 a:hover{
+        color: white;
+    }
+    .responsive_website_img{
+        width: 80%;
+        height: auto;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    #txt3{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt3 h1{
+        font-family: Anton, sans-serif;
+        text-decoration: underline;
+        margin-top: 70px;
+    }
+    #txt3 h3{
+        font-family: Anton, sans-serif;
+    }
+    #txt3 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt3 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt3 a:hover{
+        color: white;
+    }
+    #txt4{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt4 h3{
+        font-family: Anton, sans-serif;
+    }
+    #txt4 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt4 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt4 a:hover{
+        color: white;
+    }
+    .low-fi_img{
+        width: 80%;
+        height: auto;
+        margin-left: 80px;
+    }
+    .hi-fi_img{
+        width: 80%;
+        height: auto;
+        margin-left: 80px;
+    }
+    #txt5{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt5 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt5 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt5 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt5 a:hover{
+        color: white;
+    }
+    .joinhub_img{
+        width: 90%;
+        height: auto;
+    }
+     #txt6{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt6 h1{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt6 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 50px,;
+    }
+    #txt6 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt6 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt6 a:hover{
+        color: white;
+    }
+    .spriteani_img{
+        width: 90%;
+        height: auto;
+    }
+     #txt7{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt7 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt7 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt7 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt7 a:hover{
+        color: white;
+    }
+    .java_ani_img{
+        width: 80%;
+        height: auto;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+     #txt8{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt8 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt8 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt8 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt8 a:hover{
+        color: white;
+    }
+    .bouncyball_img{
+        width: 80%;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+     #txt9{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt9 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt9 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt9 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt9 a:hover{
+        color: white;
+    }
+    .onboarding_img{
+        width: 80%;
+        height: auto;
+    }
+     #txt10{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt10 h1{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt10 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt10 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt10 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt10 a:hover{
+        color: white;
+    }
+    .bioti_img{
+        width: 90%;
+        height: auto;
+    }
+     #txt11{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt11 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt11 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt11 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt11 a:hover{
+        color: white;
+    }
+    .storyboard_img{
+        width: 80%;
+        height: auto;
+    }
+     #txt12{
+        color: #ff709d;
+        margin-left: 80px;
+    }
+    #txt12 h3{
+        font-family: Anton, sans-serif;
+        margin-top: 70px;
+    }
+    #txt12 p{
+        font-family: Roboto Condensed;
+        text-align: justify;
+        margin-right: 80px;
+        line-height: 2;
+    }
+    #txt12 a{
+        font-family: Anton, sans-serif;
+        color: #ff709d;
+    }
+    #txt12 a:hover{
+        color: white;
+    }
+}
 
 
 
