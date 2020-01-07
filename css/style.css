@@ -76,6 +76,11 @@ header a.logo {
         font-family: Roboto Condensed;
         line-height: 2;
     }
+
+    .front{
+        width: 100%;
+        height: auto;
+    }
     #text h1{
         font-family: Anton, sans-serif;
         color: #ff709d;
@@ -462,11 +467,10 @@ header a.logo {
         margin-top: 70px;
         text-decoration: underline;
     }
-        .figures{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-areas:
-                "f1 f2 f3";
+
+        .front{
+            width: 100%;
+            height: auto;
         }
 
     #text p{
@@ -481,7 +485,6 @@ header a.logo {
         font-family: Anton, sans-serif;
         color: #ff709d;
         margin-left: 80px;
-        margin-right: 80px;
         line-height: 2;
         text-align: justify;
         }
@@ -494,6 +497,7 @@ header a.logo {
     #txt1{
         color: #ff709d;
         margin-left: 80px;
+        margin-right: 80px;
     }
 
     #txt1 h1{
@@ -849,12 +853,16 @@ header a.logo {
         line-height: 2;
     }
 
+    .front{
+        width: 100%;
+        height: auto;
+    }
+
     #text {
         grid-area: txt;
         color: #ff709d;
-        margin: 70px;
+        margin-left: 60px;
         text-align: justify;
-        line-height: 2;
     }
     #text h1{
         font-family: Anton, sans-serif;
@@ -862,12 +870,11 @@ header a.logo {
     }
     #text p{
         font-family: Roboto Condensed, sans-serif;
+        line-height: 2;
     }
     #text h3{
         font-family: Anton, sans-serif;
         color: #ff709d;
-        line-height: 2;
-        text-align: justify;
     }
     .pic_me {
         grid-area: pic;
